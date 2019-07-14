@@ -60,15 +60,17 @@ pre {
 }
 
 code {
-  color: #eee;
-  background: $highlight-grey;
+  color: #ddd;
+  background: black;
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 4px;
   word-wrap: break-word;
   letter-spacing: normal;
 }
-
+p strong {
+  color: #21759b
+}
 blockquote {
   border-left: .25em solid;
   margin: 1em;
@@ -445,7 +447,7 @@ p.img-404 {
 .bg-img {
   width: 100vw;
   height: 100vh;
-  opacity: .03;
+  opacity: .0275;
   z-index: -1;
   position: fixed;
   top: 0;

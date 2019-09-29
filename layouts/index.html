@@ -6,6 +6,7 @@
 		<style>.bg-img {background-image: url('{{. | absURL}}');}</style>
 		{{- end -}}
 	{{- end -}}
+	{{ template "_internal/opengraph.html" . }}
 {{ end }}
 
 {{ define "main" }}
